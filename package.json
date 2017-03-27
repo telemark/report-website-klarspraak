@@ -1,0 +1,51 @@
+{
+  "name": "report-website-klarspraak",
+  "description": "Check your text against lix and kansellisten",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.7.4"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index"
+  },
+  "keywords": [
+    "report",
+    "utility",
+    "klarspråk",
+    "klarspraak",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telemark/report-website-klarspraak.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/report-website-klarspraak/issues"
+  },
+  "homepage": "https://github.com/telemark/report-website-klarspraak",
+  "devDependencies": {
+    "ava": "0.18.2",
+    "coveralls": "2.12.0",
+    "nsp": "2.6.3",
+    "nyc": "10.1.2",
+    "standard": "9.0.2"
+  },
+  "dependencies": {
+    "axios": "0.15.3",
+    "striptags": "3.0.1",
+    "x-ray": "2.3.2"
+  }
+}
