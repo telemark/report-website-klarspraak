@@ -5,6 +5,24 @@
 # report-website-klarspraak
 Rapport for klarspråk på websiden
 
+## Usage
+
+```bash
+$ npm run collect-pages
+```
+
+```bash
+$ npm run generate-jobs
+```
+
+```bash
+$ npm run check-pages
+```
+
+```bash
+$ npm run cleanup
+```
+
 ## License
 
 [MIT](LICENSE)
