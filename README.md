@@ -20,6 +20,10 @@ $ npm run check-pages
 ```
 
 ```bash
+$ npm run generate-report
+```
+
+```bash
 $ npm run cleanup
 ```
 

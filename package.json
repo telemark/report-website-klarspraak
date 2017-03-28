@@ -22,7 +22,8 @@
     "start": "node index",
     "collect-pages": "node lib/collect-pages.js",
     "generate-jobs": "node lib/generate-jobs.js",
-    "check-pages": "node lib/check-pages",
+    "check-pages": "node lib/check-pages.js",
+    "generate-report": "node lib/generate-report",
     "cleanup": "node lib/cleanup.js"
   },
   "keywords": [
