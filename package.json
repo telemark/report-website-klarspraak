@@ -1,7 +1,7 @@
 {
   "name": "report-website-klarspraak",
   "description": "Check your text against lix and kansellisten",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "license": "MIT",
   "private": true,
   "author": {
@@ -45,7 +45,7 @@
     "ava": "0.19.1",
     "coveralls": "2.13.1",
     "nsp": "2.8.0",
-    "nyc": "11.2.1",
+    "nyc": "11.1.0",
     "standard": "10.0.3"
   },
   "dependencies": {
