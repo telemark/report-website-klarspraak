@@ -43,7 +43,7 @@
   "homepage": "https://github.com/telemark/report-website-klarspraak",
   "devDependencies": {
     "ava": "0.19.1",
-    "coveralls": "2.13.1",
+    "coveralls": "2.13.2",
     "nsp": "2.8.1",
     "nyc": "11.1.0",
     "standard": "10.0.3"
