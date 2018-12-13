@@ -1,8 +1,4 @@
-# Setting the base to nodejs 7.7.4
-FROM node:7.10.1-alpine
-
-# Maintainer
-MAINTAINER Geir Gåsodden
+FROM node:10.14.2-alpine
 
 #### Begin setup ####
 

@@ -24,7 +24,8 @@
     "generate-jobs": "node lib/generate-jobs.js",
     "check-pages": "node lib/check-pages.js",
     "generate-report": "node lib/generate-report",
-    "cleanup": "node lib/cleanup.js"
+    "cleanup": "node lib/cleanup.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "report",
