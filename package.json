@@ -49,7 +49,7 @@
     "standard": "13.1.0"
   },
   "dependencies": {
-    "axios": "0.19.0",
+    "axios": "0.21.0",
     "striptags": "3.1.1",
     "tfk-json-to-xlsx": "2.0.0",
     "uuid": "3.3.2",
